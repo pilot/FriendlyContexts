@@ -6,7 +6,9 @@
     },
     "require": {
         "behat/behat": "~3@dev",
-        "symfony/property-access": "2.*@dev",
+        "symfony/symfony": "~2.0",
+        "doctrine/doctrine-bundle": "~1.0",
+        "doctrine/orm": "~2.0",
         "doctrine/inflector": "~1.0",
         "doctrine/data-fixtures": "~1.0",
         "behat/mink-extension": "~2@dev",
@@ -15,7 +17,6 @@
     },
     "require-dev": {
         "phpspec/phpspec": "2.0.*@dev",
-        "doctrine/orm": "dev-master",
         "knplabs/phpspec-welldone-extension": "dev-master"
     },
     "license": "MIT",
